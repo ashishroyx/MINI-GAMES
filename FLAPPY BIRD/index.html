@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flappy Bird</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game">
+    <div id="bird"></div>
+    <div id="score">Score: 0</div>
+    <div id="game-over">
+      <h1>Game Over</h1>
+      <p id="final-score"></p>
+      <button onclick="location.reload()">Play Again</button>
+    </div>
+  </div>
+
+  <!-- Sound Effects -->
+  <audio id="flap-sound" src="https://raw.githubusercontent.com/robertoentringer/flappybird-html5/master/sounds/wing.wav"></audio>
+  <audio id="point-sound" src="https://raw.githubusercontent.com/robertoentringer/flappybird-html5/master/sounds/point.wav"></audio>
+  <audio id="hit-sound" src="https://raw.githubusercontent.com/robertoentringer/flappybird-html5/master/sounds/hit.wav"></audio>
+
+    
+</body>
+<script src="main.js"></script>
+</html>
